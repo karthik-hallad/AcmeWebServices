@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- USE ID FOR UNIQUE ITEMS -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME-Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <a href="index.html">
+                    <h1><span class="highlight">ACME</span> Web Design</h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="current"><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe to our newsletter</h1>
+            <form>
+                <label for="email">
+                    <input type="email" id="email" name="email" placeholder="Enter Email..">
+                </label>
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="main">
+            <article id="main-col">
+                <h2>Services</h2>
+                <ul id="services">
+                    <li>
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum at enim vero rerum
+                            perferendis dolores repudiandae ducimus unde beatae odit, voluptatibus modi excepturi
+                            praesentium debitis mollitia ab expedita explicabo.</p>
+                        <p>Pricing: $1,000 - $3,000</p>
+                    </li>
+                    <li>
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum at enim vero rerum
+                            perferendis dolores repudiandae ducimus unde beatae odit, voluptatibus modi excepturi
+                            praesentium debitis mollitia ab expedita explicabo.</p>
+                        <p>Pricing: $1,000 - $3,000</p>
+                    </li>
+                    <li>
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum at enim vero rerum
+                            perferendis dolores repudiandae ducimus unde beatae odit, voluptatibus modi excepturi
+                            praesentium debitis mollitia ab expedita explicabo.</p>
+                        <p>Pricing: $1,000 - $3,000</p>
+                    </li>
+                </ul>
+            </article>
+            <aside id="sidebar">
+                <form action="post">
+                    <div id="dark">
+                        <h3>Get a Quote</h3>
+                        <div>
+                            <label>Name</label><br>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div>
+                            <label>Email</label><br>
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div>
+                            <label>Message</label><br>
+                            <!-- why placeholder not working                             -->
+                            <textarea placeholder="Message">
+                            </textarea>
+                        </div>
+                        <button class="button_1">Send</button>
+                    </div>
+                </form>
+
+            </aside>
+        </section>
+    </div>
+
+
+    <footer>
+        <p>Acme Web Design, Copyright &copy; 2017</p>
+    </footer>
+
+</body>
+
+</html>
